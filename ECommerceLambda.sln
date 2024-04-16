@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerceLambda", "ECommerceLambda\src\ECommerceLambda\ECommerceLambda.csproj", "{7DC855FE-5383-4998-899F-1EF09021029D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AprovarPedidoLambda", "AprovarPedidoLambda\src\AprovarPedidoLambda\AprovarPedidoLambda.csproj", "{AC32477C-7176-4E53-9FCB-7C71FA5588DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerceLambda.Domain", "ECommerceLambda.Domain\ECommerceLambda.Domain.csproj", "{6CDD1131-4706-4D0A-89A1-969A299B314B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AprovarPedidoLambda.Tests", "AprovarPedidoLambda.Tests\AprovarPedidoLambda.Tests.csproj", "{64D26EF8-DAC5-423C-B376-A1CB52F0F144}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessarPedidoPago", "ProcessarPedidoPago\src\ProcessarPedidoPago\ProcessarPedidoPago.csproj", "{EE61F25C-476D-4610-9F93-22BCF9094401}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProcessarPedidoPago.Tests", "ProcessarPedidoPago\test\ProcessarPedidoPago.Tests\ProcessarPedidoPago.Tests.csproj", "{7A0FAEFE-6B6B-443A-9317-97B53AD1E67A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DC855FE-5383-4998-899F-1EF09021029D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DC855FE-5383-4998-899F-1EF09021029D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DC855FE-5383-4998-899F-1EF09021029D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DC855FE-5383-4998-899F-1EF09021029D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC32477C-7176-4E53-9FCB-7C71FA5588DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC32477C-7176-4E53-9FCB-7C71FA5588DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC32477C-7176-4E53-9FCB-7C71FA5588DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC32477C-7176-4E53-9FCB-7C71FA5588DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CDD1131-4706-4D0A-89A1-969A299B314B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CDD1131-4706-4D0A-89A1-969A299B314B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CDD1131-4706-4D0A-89A1-969A299B314B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CDD1131-4706-4D0A-89A1-969A299B314B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64D26EF8-DAC5-423C-B376-A1CB52F0F144}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64D26EF8-DAC5-423C-B376-A1CB52F0F144}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64D26EF8-DAC5-423C-B376-A1CB52F0F144}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64D26EF8-DAC5-423C-B376-A1CB52F0F144}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE61F25C-476D-4610-9F93-22BCF9094401}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE61F25C-476D-4610-9F93-22BCF9094401}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE61F25C-476D-4610-9F93-22BCF9094401}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE61F25C-476D-4610-9F93-22BCF9094401}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A0FAEFE-6B6B-443A-9317-97B53AD1E67A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A0FAEFE-6B6B-443A-9317-97B53AD1E67A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A0FAEFE-6B6B-443A-9317-97B53AD1E67A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A0FAEFE-6B6B-443A-9317-97B53AD1E67A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B98F23A-B41B-4EC7-B256-D069D9BDC4B1}
+	EndGlobalSection
+EndGlobal
